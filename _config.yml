@@ -1,0 +1,171 @@
+### Welcome to Hexo-Theme-Lx
+###Author:blleng(https://github.com/blleng)
+###Version:v0.3.9
+version: 0.3.9
+
+# favicon
+favicon: favicon.ico
+
+# Theme-color for Android Chrome
+theme_color: "#58b77a"
+
+# personal information
+personal_des: "No information is the best information"
+
+# avatar
+avatar: https://cdn.jsdelivr.net/gh/186526/jsdelivr/avatar.jpg
+
+###The options below are images information
+# Home cover
+cover: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/cover.jpeg
+# page cover
+postcover: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/post_cover.jpeg
+# the cover of newer or older post
+pre_post: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/footer-r.jpeg
+nex_post: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/footer-l.jpeg
+
+# The theme of sidebar
+##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
+##gradient color：endless-river,crazy-orange,between-clouds,amethyst,steel-man,d2f(dance to forget),park-life,moonlit,fb-messenger,flickr
+## default: black-grey
+menu_theme: greenish
+
+# menu content
+menu:
+  category: true #category
+  pages:  #the page created by yourself
+    enable: true
+    links:
+      '留言板': guestbook/
+      '关于我': about/
+      'API列表': api-list/
+  friends:
+    enable: true
+    links:
+      '宝硕小站': 
+        url: https://www.baoshuo.ren/
+        img: https://www.baoshuo.ren/favicon.ico
+      Radium-Bit: 
+        url: https://radium-bit.github.io/
+        img: https://cdn.jsdelivr.net/gh/radium-bit/res@latest/avatar.webp
+  tool:
+    enable: true
+    links:
+      '下载站': https://dl.186526.club/
+      'Our-Windows-Project下载': https://dl.our-windows.186526.club/
+      'Aria2': https://tool.186526.club/aria2/
+      '短链接': https://sl1.club/
+      '免费二级域名': https://api.sl1.club/
+# social links
+#
+#links:
+#  name:
+#   icon: fontawesome icon
+#   link: url
+social:
+  enable: true
+  links:
+    GitHub:
+      icon: github
+      link: https://github.com/186526
+    Bilibili:
+      icon: video-camera
+      link: https://space.bilibili.com/386093968
+    Coolapk:
+      icon: pencil-square
+      link: http://www.coolapk.com/u/848581
+    Email:
+      icon: envelope
+      link: mailto:186526@186526.club
+    File:
+      icon: file
+      link: https://dl.186526.club
+    Windows:
+      icon: windows
+      link: https://dl.our-windows.186526.club
+    Shortlink:
+      icon: link
+      link: https://sl1.club
+    
+  #  Instagram:
+  #    icon: instagram
+  #    link: https://instagram.com/yourname
+
+# local search
+#install first:
+#'npm install hexo-generator-searchdb -s'
+local_search:
+  enable: true
+  trigger: auto #'auto' or 'manual' 
+  top_n_per_article: 1
+  unescape: false
+  preload: true
+  placeholder: Search...
+
+# footer
+footer:
+
+# Analytics
+google_analytics: #Google ID
+baidu_analytics: #Baidu ID
+
+# Lx use valine as comment system
+# You should create an application in Leancloud to get the appid and appkey
+comment:
+  enable: true
+  appid: 'u6RSYBGKK1qBIkHBdIEmMWSW-gzGzoHsz'
+  appkey: 'pFcWuNMWM08I81COGKAl6SKJ'
+  notify: true
+  verify: true
+  placeholder: '老公 你快说句话啊！ doge' 
+  avatar: identicon
+  guest_info: nick,mail,link
+  pageSize: 10
+  language: zh-cn
+  cdn: https://cdn.jsdelivr.net/gh/186526/jsdelivr/Valine.min.js
+
+# Mathjax
+mathjax:
+  enable: true
+  cdn: https://cdn.bootcss.com/mathjax/3.0.5/es5/tex-mml-svg.js
+
+# FontAwesome-CDN
+font_awesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+# Font
+font:
+  enable: true
+  host: https://fonts.loli.net
+  codes: ##the font for codes
+    enable: true
+    family: Fira Code
+  else:  ##the font for others
+    enable: false
+    family: Noto Serif SC
+
+fancybox:
+  enable: false
+  css_cdn: /css/fancybox.css
+  js_cdn: /js/fancybox.js
+  warpimg_cdn: /js/warpimage.js
+
+########### Develop Options ############
+############# Warning ##################
+####### Don't edit options below #######
+## unless you know what you are doing ##
+############# Warning ##################
+
+
+
+#The dir of Js and Css
+base_file:
+  jquery_cdn: https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js
+  js: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/js/
+  css: https://cdn.jsdelivr.net/gh/186526/jsdelivr/
+
+#develop mode
+#If true，`lx` will load js and css from local `source` dir.
+#Local css file---> themes/lx/source/main.styl
+#Local js file dir---> themes/lx/sourc/js/
+develop: false
+# <!-- <%if (fancybox.enable)<var fancyboxjs = fancybox.js_cdn;var fancyboxcss = fancybox.css_cdn;var fancyboxwarp = fancybox.warpimg_cdn;>{%><script src="<%= fancyboxjs%>"></script><script sc="<%= fancyboxwarp%>"></script><link rel="stylesheet" href="<%= fancyboxfcss%>"><%}%>-->
