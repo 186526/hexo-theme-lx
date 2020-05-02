@@ -6,17 +6,11 @@ Hexo-Theme-Lx
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
->如果你喜欢本主题，请点击`star`收藏
+>如果你喜欢本主题，请点击`star`给我和[上游](https://github.com/blleng/hexo-theme-lx)收藏
 
-Live Demo: [https://lx.js.org](https://lx.js.org)
+作者的博客: [https://186526.club](https://186526.club)
 
-*该子域名由 [JS.ORG](https://github.com/js-org/js.org) 提供。*
-
-作者的博客: [https://freezing.cool](https://freezing.cool)
-
-Telegram群组: [https://t.me/themelx](https://t.me/themelx)
-
-有任何疑问和建议请提交[issue](https://github.com/blleng/hexo-theme-lx/issues)
+有任何疑问和建议请提交[issue](https://github.com/186526/hexo-theme-lx/issues)
 
 ## 最近更新
 
@@ -29,7 +23,7 @@ Telegram群组: [https://t.me/themelx](https://t.me/themelx)
 
 ### 获取最稳定的版本：
 
-https://github.com/blleng/hexo-theme-lx/releases
+https://github.com/186526/hexo-theme-lx/releases
 
 解压后将文件夹命名为`lx`放在`themes`文件夹中。
 
@@ -40,7 +34,7 @@ https://github.com/blleng/hexo-theme-lx/releases
 在博客根目录:
 
 ```bash
-$ git clone https://github.com/blleng/hexo-theme-lx themes/lx
+$ git clone https://github.com/186526/hexo-theme-lx themes/lx
 ```
 
 >不推荐这种方式。虽然我尽量保证没有bug后再推送至GitHub仓库，但正在开发中的版本仍可能有bug。
