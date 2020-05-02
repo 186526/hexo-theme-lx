@@ -1,19 +1,19 @@
 ### Welcome to Hexo-Theme-Lx
-###Author:blleng(https://github.com/blleng)
-###Version:v0.3.9
+### Author:blleng(https://github.com/blleng)
+### Adder:186526(https://github.com/186526)
+###Version:v0.3.9+
 version: 0.3.9
 
 # favicon
-favicon: favicon.ico
-
+favicon: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/favicon.ico
 # Theme-color for Android Chrome
 theme_color: "#58b77a"
 
 # personal information
-personal_des: "No information is the best information"
+personal_des: "Hexo-Theme-LX"
 
 # avatar
-avatar: https://cdn.jsdelivr.net/gh/186526/jsdelivr/avatar.jpg
+avatar: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/avatar.jpeg
 
 ###The options below are images information
 # Home cover
@@ -36,26 +36,18 @@ menu:
   pages:  #the page created by yourself
     enable: true
     links:
-      '留言板': guestbook/
-      '关于我': about/
-      'API列表': api-list/
+      'Guestbook': guestbook/
+      'About': about/
   friends:
     enable: true
     links:
-      '宝硕小站': 
-        url: https://www.baoshuo.ren/
-        img: https://www.baoshuo.ren/favicon.ico
-      Radium-Bit: 
-        url: https://radium-bit.github.io/
-        img: https://cdn.jsdelivr.net/gh/radium-bit/res@latest/avatar.webp
+      Theme-LX: 
+        url: https://lx.js.org/
+        img: https://lx.js.org/favicon.ico
   tool:
-    enable: true
+    enable: false
     links:
-      '下载站': https://dl.186526.club/
-      'Our-Windows-Project下载': https://dl.our-windows.186526.club/
-      'Aria2': https://tool.186526.club/aria2/
-      '短链接': https://sl1.club/
-      '免费二级域名': https://api.sl1.club/
+      Tool: tool/
 # social links
 #
 #links:
@@ -65,28 +57,12 @@ menu:
 social:
   enable: true
   links:
-    GitHub:
-      icon: github
-      link: https://github.com/186526
-    Bilibili:
-      icon: video-camera
-      link: https://space.bilibili.com/386093968
-    Coolapk:
-      icon: pencil-square
-      link: http://www.coolapk.com/u/848581
-    Email:
-      icon: envelope
-      link: mailto:186526@186526.club
-    File:
-      icon: file
-      link: https://dl.186526.club
-    Windows:
-      icon: windows
-      link: https://dl.our-windows.186526.club
-    Shortlink:
-      icon: link
-      link: https://sl1.club
-    
+  #  GitHub:
+  #    icon: github
+  #    link: https://github.com/yourname
+  #  Email:
+  #    icon: envelope
+  #    link: mailto:yourname@youremailaddress
   #  Instagram:
   #    icon: instagram
   #    link: https://instagram.com/yourname
@@ -95,7 +71,7 @@ social:
 #install first:
 #'npm install hexo-generator-searchdb -s'
 local_search:
-  enable: true
+  enable: false
   trigger: auto #'auto' or 'manual' 
   top_n_per_article: 1
   unescape: false
@@ -112,21 +88,21 @@ baidu_analytics: #Baidu ID
 # Lx use valine as comment system
 # You should create an application in Leancloud to get the appid and appkey
 comment:
-  enable: true
-  appid: 'u6RSYBGKK1qBIkHBdIEmMWSW-gzGzoHsz'
-  appkey: 'pFcWuNMWM08I81COGKAl6SKJ'
-  notify: true
-  verify: true
-  placeholder: '老公 你快说句话啊！ doge' 
+  enable: false
+  appid: ''
+  appkey: ''
+  notify: false
+  verify: false
+  placeholder: 'Say something.' 
   avatar: identicon
   guest_info: nick,mail,link
   pageSize: 10
-  language: zh-cn
+  language: en
   cdn: https://cdn.jsdelivr.net/gh/186526/jsdelivr/Valine.min.js
 
 # Mathjax
 mathjax:
-  enable: true
+  enable: false
   cdn: https://cdn.bootcss.com/mathjax/3.0.5/es5/tex-mml-svg.js
 
 # FontAwesome-CDN
@@ -142,12 +118,6 @@ font:
   else:  ##the font for others
     enable: false
     family: Noto Serif SC
-
-fancybox:
-  enable: false
-  css_cdn: /css/fancybox.css
-  js_cdn: /js/fancybox.js
-  warpimg_cdn: /js/warpimage.js
 
 ########### Develop Options ############
 ############# Warning ##################
@@ -168,4 +138,3 @@ base_file:
 #Local css file---> themes/lx/source/main.styl
 #Local js file dir---> themes/lx/sourc/js/
 develop: false
-# <!-- <%if (fancybox.enable)<var fancyboxjs = fancybox.js_cdn;var fancyboxcss = fancybox.css_cdn;var fancyboxwarp = fancybox.warpimg_cdn;>{%><script src="<%= fancyboxjs%>"></script><script sc="<%= fancyboxwarp%>"></script><link rel="stylesheet" href="<%= fancyboxfcss%>"><%}%>-->

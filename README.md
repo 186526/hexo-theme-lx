@@ -6,17 +6,13 @@ Hexo-Theme-Lx
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
->If you like the theme, please give me star.
+>If you like the theme, please give [Upstream](https://github.com/blleng/hexo-theme-lx) and me star.
 
 Languages: English | [中文](README/README.zh.md)
 
-Live Demo: [https://lx.js.org](https://lx.js.org)
+Live Demo: [https://186526.club](https://186526.club)
 
-*THE SUBDOMAIN IS PROVIDED BY [JS.ORG](https://github.com/js-org/js.org)*
-
-Telegram: [https://t.me/themelx](https://t.me/themelx)
-
-Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
+Any problem: [issue](https://github.com/186526/hexo-theme-lx/issues)
 
 ## The latest release
 
@@ -29,7 +25,7 @@ Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ### The stable version
 
-https://github.com/blleng/hexo-theme-lx/releases
+https://github.com/186526/hexo-theme-lx/releases
 
 Unzip the file and rename it as `lx`. Put it under `themes`
 
@@ -40,7 +36,7 @@ Unzip the file and rename it as `lx`. Put it under `themes`
 At theme blog root dir:
 
 ```bash
-$ git clone https://github.com/blleng/hexo-theme-lx themes/lx
+$ git clone https://github.com/186526/hexo-theme-lx themes/lx
 ```
 
 >This version is under development and it may have bugs.
@@ -93,6 +89,7 @@ More features in `themes/lx/_config.yml`
 
 `lx` use valine as comment system.
 The official site: [https://valine.js.org](https://valine.js.org)
+Please Use 1.3.10(Add blackmode mode)versions 
 
 Usage:
 

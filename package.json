@@ -1,5 +1,5 @@
 {
-  "name": "theme-lx",
+  "name": "theme-lx-plus",
   "version": "0.3.9",
   "description": "A simle & clear & elegant hexo theme",
   "main": "source/css/main.min.css",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blleng/hexo-theme-lx.git"
+    "url": "git+https://github.com/186526/hexo-theme-lx.git"
   },
   "keywords": [
     "hexo",
     "theme-lx",
     "lx"
   ],
-  "author": "blleng",
+  "author": "186526",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blleng/hexo-theme-lx/issues"
+    "url": "https://github.com/186526/hexo-theme-lx/issues"
   },
-  "homepage": "https://github.com/blleng/hexo-theme-lx#readme"
+  "homepage": "https://github.com/186526/hexo-theme-lx#readme"
 }
