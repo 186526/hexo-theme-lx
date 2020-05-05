@@ -89,7 +89,7 @@ More features in `themes/lx/_config.yml`
 
 `lx` use valine as comment system.
 The official site: [https://valine.js.org](https://valine.js.org)
-Please Use 1.3.10(Add blackmode mode)versions 
+Please Use 1.4.14(Add blackmode mode)versions 
 
 Usage:
 
@@ -97,7 +97,7 @@ Edit `themes/lx/_config.yml`:
 
 ```yml
 comment:
-  enable: true
+  enable: false
   appid: ... #leancloud appid
   appkey: ... #leancloud appkey
   notify: false
