@@ -98,7 +98,7 @@ comment:
   guest_info: nick,mail,link
   pageSize: 10
   language: en
-  cdn: https://cdn.jsdelivr.net/gh/186526/jsdelivr/Valine.min.js
+  cdn: //js/Valine.min.1.4.14.js
 
 # Mathjax
 mathjax:

@@ -13,7 +13,7 @@ var css = theme.base_file.css;
 if (theme.develop){ js = config.root + 'js/'; css = config.root + 'css/main.css';}
 else { css += 'main.min.css';}
 %><!DOCTYPE html>
-<html <%if(config.language.length){%>lang="<%-config.language.substring(0,2)%>"<%}%>>
+<html <%if(config.language.length){%>lang="<%-config.language.substring(0,2)%>"<%}%>  id="pjax-content">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,6 +29,7 @@ else { css += 'main.min.css';}
   <%-partial('partials/font')%>
   <script src="<%= theme.base_file.jquery_cdn%>"></script>
   <script src="<%= js%>jquery.jside.menu.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/defunkt/jquery-pjax/jquery.pjax.js"></script>
 	<script>
 	$(document).ready(function(){
 	$(".menu-container").jSideMenu({
@@ -82,4 +83,5 @@ else { css += 'main.min.css';}
 <% if (theme.local_search.enable) {%><script src="<%= js%>local.search.js"></script><%}%>
 <%if (theme.comment.enable) {%><%- partial('third-party/comment')%><%}%>
 <%if (theme.mathjax.enable) {%><%if (page.mathjax) {%><%- partial('third-party/mathjax')%><%}%><%}%></body>
+<script>$(document).pjax('a', '#pjax-content' , {fragment:'#pjax-content', timeout:8000}); </script>
 </html>
